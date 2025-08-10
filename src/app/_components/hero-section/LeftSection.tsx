@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React from "react";
+
+
 
 const LeftSection = () => {
   return (
@@ -10,13 +10,11 @@ const LeftSection = () => {
         </h3>
       </div>
       <div className="w-full min-h-full">
-        <Image
+        <img
           src={"/images/saudi-man.jpg"}
           alt="hero-image"
-          width={1000}
-          height={1000}
+     
           className="bg-cover"
-          priority
         />
       </div>
     </div>
